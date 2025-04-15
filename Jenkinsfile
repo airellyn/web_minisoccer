@@ -50,7 +50,7 @@ pipeline {
     stage('Checkout Code') {
       steps {
         script {
-          def repoUrl = 'https://github.com/Mini-Soccer-Project/mini-soccer-fe.git'
+          def repoUrl = 'https://github.com/airellyn/web_minisoccer.git'
 
           checkout([$class: 'GitSCM',
             branches: [
